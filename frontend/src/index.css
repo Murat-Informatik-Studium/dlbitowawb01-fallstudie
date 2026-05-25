@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f9;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  background-color: #2563eb;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1d4ed8;
+}
+
+button:focus,
+input:focus,
+textarea:focus,
+select:focus {
+  outline: 3px solid orange;
+}
+
+input,
+textarea,
+select {
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 250px;
+}
+
+h1 {
+  color: #1e3a8a;
+}
+
+h2 {
+  color: #374151;
+}
+
+.card {
+  background: white;
+  padding: 8px;
+  margin: 8px 0;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+
+  display: block;
+  width: fit-content;
+  min-width: 180px;
+}
+
+
+.header {
+  background: white;
+  padding: 10px;
+  border-radius: 12px;
+  margin: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+
+  display: block;
+  width: fit-content;
+  min-width: 500px;
+}
+
+.header h1 {
+  margin: 0;
+  color: #1e3a8a;
+}
+
+.header p {
+  margin-top: 10px;
+  color: #6b7280;
+}
+
+label {
+  color: black;
+}
+
+body.dark label {
+  color: white;
+}
+
+.service-list {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.card h2,
+.card h3,
+.card p,
+.card label {
+  color: inherit;
+}
+
+.header h1,
+.header h2,
+.header p {
+  color: inherit;
+}

@@ -1,0 +1,43 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Seite-1" id="X_4n2cNEstOoW4KHgPEc">
+    <mxGraphModel dx="1414" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wMVFzCvvXKxd5SRhVwVD-3" edge="1" parent="1" source="wMVFzCvvXKxd5SRhVwVD-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="wMVFzCvvXKxd5SRhVwVD-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wMVFzCvvXKxd5SRhVwVD-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font&gt;Benutzer / Administrator&lt;/font&gt;" vertex="1">
+          <mxGeometry height="20" width="200" x="240" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wMVFzCvvXKxd5SRhVwVD-5" edge="1" parent="1" source="wMVFzCvvXKxd5SRhVwVD-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="wMVFzCvvXKxd5SRhVwVD-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wMVFzCvvXKxd5SRhVwVD-2" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="React Frontend" vertex="1">
+          <mxGeometry height="20" width="200" x="240" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wMVFzCvvXKxd5SRhVwVD-7" edge="1" parent="1" source="wMVFzCvvXKxd5SRhVwVD-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="wMVFzCvvXKxd5SRhVwVD-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wMVFzCvvXKxd5SRhVwVD-4" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="REST API" vertex="1">
+          <mxGeometry height="20" width="200" x="240" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="wMVFzCvvXKxd5SRhVwVD-9" edge="1" parent="1" source="wMVFzCvvXKxd5SRhVwVD-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="wMVFzCvvXKxd5SRhVwVD-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wMVFzCvvXKxd5SRhVwVD-6" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Spring Boot Backend" vertex="1">
+          <mxGeometry height="20" width="200" x="240" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="wMVFzCvvXKxd5SRhVwVD-11" edge="1" parent="1" source="wMVFzCvvXKxd5SRhVwVD-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="wMVFzCvvXKxd5SRhVwVD-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wMVFzCvvXKxd5SRhVwVD-8" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Spring Data JPA / Hibernate" vertex="1">
+          <mxGeometry height="20" width="200" x="240" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="wMVFzCvvXKxd5SRhVwVD-10" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="H2 Datenbank" vertex="1">
+          <mxGeometry height="20" width="200" x="240" y="240" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
